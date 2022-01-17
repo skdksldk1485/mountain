@@ -26,7 +26,7 @@ const Navbar = () => {
       <Menu onClick={handleClick} selectedKeys={[current]} mode="horizontal">
         <Menu.Item key="main">
           <Link to="/">
-            <Logo src={logo} alt="logo" />
+            <img src={logo} alt="logo" style={{ width: '50px' }} />
           </Link>
         </Menu.Item>
 
@@ -41,7 +41,10 @@ const Navbar = () => {
         <Menu.Item key="login">
           <Link to="/login">
             <Avatar
-              style={{ backgroundColor: 'var(--color-dark-green)' }}
+              style={{
+                backgroundColor: 'var(--color-dark-green)',
+                cursor: 'pointer',
+              }}
               icon={<UserOutlined />}
             />
           </Link>
