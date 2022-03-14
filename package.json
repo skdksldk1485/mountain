@@ -53,5 +53,5 @@
   "devDependencies": {
     "craco-less": "^2.0.0"
   },
-  "proxy": "https://santada.herokuapp.com/"
+  "proxy": "https://moutain.herokuapp.com/"
 }
